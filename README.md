@@ -1,6 +1,8 @@
-# 
+# Fork Notes
 
 This is a forked version of the SmoochBot example provided by smooch.io. It has been modified to integrate with API.ai to manage all conversations.
+
+In addition to the smoochi.io config vars in the installation guide below, you will need to provide the api.ai client access token as a config var.
 
 # SmoochBot Examples
 
