@@ -24,6 +24,7 @@ const lock = new MemoryLock();
 var apiai = require('apiai');
 var apiaiapp = apiai(process.env.APIAI_CLIENT_ACCESS_TOKEN);
 
+console.log('APIAI Values %s:%s', apiai, apiaiapp);
 // Smooch.io config
 function createWebhook(smoochCore, target) {
     return smoochCore.webhooks.create({
